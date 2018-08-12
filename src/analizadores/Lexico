@@ -4,8 +4,15 @@
  * Julio - 2018
  */
 
+
+/* 
+    indicamos a Jlex que la clase estará en el paquete 
+    analizadores y que es necesario que se importe la clase Symbol
+*/
+
 package analizadores;
 import java_cup.runtime.Symbol; 
+
 
 %% 
 %class Lexico
@@ -16,14 +23,31 @@ import java_cup.runtime.Symbol;
 %unicode
 %ignorecase
 
+/* 
+    dentro del init, se ejecutan las acciones de inicialización, 
+    es decir, lo que va dentro del constructor del analizador léxico.
+*/
+
 %init{ 
     yyline = 1; 
     yychar = 1; 
 %init} 
 
+
+/* 
+    Luego se escriben algunas expresiones regulares que son almacenadas en macros,
+    que básicamente son variables que almacenan los patrones.
+*/
+
 BLANCOS=[ \r\t]+
 D=[0-9]+
 DD=[0-9]+("."[  |0-9]+)?
+
+
+/* 
+    Por último se definen todas las reglas léxicas, en las que indicamos 
+    el patrón que reconocerá y dentro de llaves lo que debe hacer cuando lo reconozca. 
+*/
 
 %%
 
