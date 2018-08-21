@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/diegoarmira/NetBeansProjects/Repositorio/Ejemplo_ErickNavarro_OLC2/src/analizadores/Lexico</file>
+            <file>file:/home/diegoarmira/NetBeansProjects/Repositorio/Ejemplo_ErickNavarro_OLC2/src/analizadores/Sintactico.java</file>
+            <file>file:/home/diegoarmira/NetBeansProjects/Repositorio/Ejemplo_ErickNavarro_OLC2/src/analizadores/Sintactico</file>
+            <file>file:/home/diegoarmira/NetBeansProjects/Repositorio/Ejemplo_ErickNavarro_OLC2/src/analizadores/compilar.bat</file>
+            <file>file:/home/diegoarmira/NetBeansProjects/Repositorio/Ejemplo_ErickNavarro_OLC2/src/analizadores/compilar.sh</file>
+            <file>file:/home/diegoarmira/NetBeansProjects/Repositorio/Ejemplo_ErickNavarro_OLC2/src/analizadores/Lexico.java</file>
+            <file>file:/home/diegoarmira/NetBeansProjects/Repositorio/Ejemplo_ErickNavarro_OLC2/src/analizadores/sym.java</file>
+        </group>
     </open-files>
 </project-private>

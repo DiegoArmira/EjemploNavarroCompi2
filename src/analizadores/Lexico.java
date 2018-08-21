@@ -6,7 +6,7 @@
 package analizadores;
 import java_cup.runtime.Symbol; 
 
-
+/*prueba*/
 public class Lexico implements java_cup.runtime.Scanner {
 	private final int YY_BUFFER_SIZE = 512;
 	private final int YY_F = -1;
